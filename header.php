@@ -29,7 +29,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 	<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 	<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>

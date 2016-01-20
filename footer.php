@@ -10,10 +10,10 @@
  */
 ?>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/wp-content/themes/kvantum/js/lightbox/css/lightbox.css">
-<script src="/wp-content/themes/kvantum/js/lightbox/js/lightbox.js"></script>
-<script src="/wp-content/themes/kvantum/js/main.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/lightbox/css/lightbox.css">
+<script src="<?php echo get_template_directory_uri(); ?>/js/lightbox/js/lightbox.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 <?php wp_footer(); ?>
 </body>
