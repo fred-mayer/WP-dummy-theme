@@ -1,0 +1,63 @@
+/*
+Theme Name: School
+Theme URI: http://site-don.ru/
+Author: Fred Mayer
+Author URI: http://site-don.ru/
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: unitednations
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	line-height: 1.2em;
+	color: #333333;
+	font-size: 14px;
+	
+}
+body.home{ background: url(img/bg-full.jpg) center bottom no-repeat; background-position: center 370px;}
+h1,h2,h3,h4,h5{font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	line-height: 1.2em;}
+h1{ font-size: 30px; color: #005aab; text-transform: uppercase; font-weight: bold; line-height: 1.2em; margin-top: 26px; margin-bottom: 24px;}
+h2{
+	font-size: 30px; color: #005aab; line-height: 1.1em; font-weight: bold; text-transform: uppercase;
+}
+h2.title-center{ text-align: center; margin-bottom: 35px; margin-top: 0;}
+h3{ font-size: 24px; color: #005aab; line-height: 1.1em; font-weight: normal; margin-top: 0; margin-bottom: 15px;}
+
+
+.container{ width: 970px; position: relative;}
+a {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: #005aab;
+}
+
+
+/*================================================
+	Layout
+================================================*/
+
+
+
+/*================================================
+	Main Page
+================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
