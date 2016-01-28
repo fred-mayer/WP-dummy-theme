@@ -1,0 +1,71 @@
+/*   
+Theme Name: site-don
+Theme URI: http://site-don.ru
+Description: Веб студия Сайт-на-Дону.РФ
+Author: Fred
+Author URI: http://site-don.ru
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+@font-face {
+    font-family: 'pf_din_text_comp_pro';
+    src: url('fonts/pfdintextcomppro-thin-webfont.eot');
+    src: url('fonts/pfdintextcomppro-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pfdintextcomppro-thin-webfont.woff2') format('woff2'),
+         url('fonts/pfdintextcomppro-thin-webfont.woff') format('woff'),
+         url('fonts/pfdintextcomppro-thin-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+//@import (css) "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic";
+
+//Defines
+@fontBase: Arial, sans-serif;
+@font: 'pf_din_text_comp_pro', Arial, sans-serif;
+
+@ColorBg: #edf2f3;
+@color: #434d56;
+@colorBlue: #0071bb;
+@colorYellow: #ffde00;
+@colorRed: #ff2c28;
+@colorLink: #0071bb;
+
+@tablet: 1199px;
+@tabletPortrait: 991px;
+@mobile: 767px;
+
+//functions
+.fTranslate(@x:-50%,@y:-50%){
+	transform: translate(@x, @y);
+	-webkit-transform: translate(@x, @y);
+	-moz-transform: translate(@x, @y);
+}
+.fBoxShadow(@x:0,@y:0,@ss:2px,@sc: rgba(0,0,0,0.2)){
+	box-shadow: @x @y @ss @sc;
+	-moz-box-shadow: @x @y @ss @sc;
+	-webkit-box-shadow: @x @y @ss @sc;
+}
+.fTransition{
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+.fBorderRadius(@count:3px){
+	border-radius: @count;
+	-moz-border-radius: @count;
+	-webkit-border-radius: @count;
+}
+.fAfter{
+	content: "";
+	display: block;
+	position: absolute;
+}
+.fclear{ content:""; display: table; clear: both;}
+.ul{
+	list-style: none; margin: 0; padding: 0;
+}
