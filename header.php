@@ -30,9 +30,13 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"> -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+	
+<!--
 	<link rel="stylesheet/less" href="<?php echo get_template_directory_uri(); ?>/style.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+-->
+    
 	<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 	<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
