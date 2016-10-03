@@ -1,0 +1,122 @@
+/*margins*/
+.push-down-0{ margin-bottom: 0;}
+.push-down-5{ margin-bottom: 5px;}
+.push-down-10{ margin-bottom: 10px;}
+.push-down-15{ margin-bottom: 15px;}
+.push-down-20{ margin-bottom: 20px;}
+.push-down-25{ margin-bottom: 25px;}
+.push-down-30{ margin-bottom: 30px;}
+.push-down-40{ margin-bottom: 40px;}
+.push-down-50{ margin-bottom: 50px;}
+.push-down-60{ margin-bottom: 60px;}
+.push-up-0{ margin-top: 0;}
+.push-up-5{ margin-top: 5px;}
+.push-up-10{ margin-top: 10px;}
+.push-up-15{ margin-top: 15px;}
+.push-up-20{ margin-top: 20px;}
+.push-up-25{ margin-top: 25px;}
+.push-up-30{ margin-top: 30px;}
+.push-up-40{ margin-top: 40px;}
+.push-up-50{ margin-top: 50px;}
+.push-up-60{ margin-top: 60px;}
+
+.fs10{ font-size: 10px;}
+.fs11{ font-size: 11px;}
+.fs12{ font-size: 12px;}
+.fs14{ font-size: 14px;}
+.fs16{ font-size: 16px;}
+.fs18{ font-size: 18px;}
+.fs20{ font-size: 20px;}
+.fs22{ font-size: 22px;}
+.fs24{ font-size: 24px;}
+.fs28{ font-size: 28px;}
+.fs30{ font-size: 30px;}
+
+@media(min-width: 1200px){
+	.push-down-lg-0{ margin-bottom: 0px;}
+	.push-down-lg-5{ margin-bottom: 5px;}
+	.push-down-lg-10{ margin-bottom: 10px;}
+	.push-down-lg-15{ margin-bottom: 15px;}
+	.push-down-lg-20{ margin-bottom: 20px;}
+	.push-down-lg-25{ margin-bottom: 25px;}
+	.push-down-lg-30{ margin-bottom: 30px;}
+	.push-down-lg-40{ margin-bottom: 40px;}
+	.push-down-lg-50{ margin-bottom: 50px;}
+	.push-down-lg-60{ margin-bottom: 60px;}
+	.push-up-lg-0{ margin-top: 0;}
+	.push-up-lg-5{ margin-top: 5px;}
+	.push-up-lg-10{ margin-top: 10px;}
+	.push-up-lg-15{ margin-top: 15px;}
+	.push-up-lg-20{ margin-top: 20px;}
+	.push-up-lg-25{ margin-top: 25px;}
+	.push-up-lg-30{ margin-top: 30px;}
+	.push-up-lg-40{ margin-top: 40px;}
+	.push-up-lg-50{ margin-top: 50px;}
+	.push-up-lg-60{ margin-top: 60px;}
+}
+@media(min-width: 992px){
+	.push-down-md-0{ margin-bottom: 0px;}
+	.push-down-md-5{ margin-bottom: 5px;}
+	.push-down-md-10{ margin-bottom: 10px;}
+	.push-down-md-15{ margin-bottom: 15px;}
+	.push-down-md-20{ margin-bottom: 20px;}
+	.push-down-md-25{ margin-bottom: 25px;}
+	.push-down-md-30{ margin-bottom: 30px;}
+	.push-down-md-40{ margin-bottom: 40px;}
+	.push-down-md-50{ margin-bottom: 50px;}
+	.push-down-md-60{ margin-bottom: 60px;}
+	.push-up-md-0{ margin-top: 0;}
+	.push-up-md-5{ margin-top: 5px;}
+	.push-up-md-10{ margin-top: 10px;}
+	.push-up-md-15{ margin-top: 15px;}
+	.push-up-md-20{ margin-top: 20px;}
+	.push-up-md-25{ margin-top: 25px;}
+	.push-up-md-30{ margin-top: 30px;}
+	.push-up-md-40{ margin-top: 40px;}
+	.push-up-md-50{ margin-top: 50px;}
+	.push-up-md-60{ margin-top: 60px;}
+}
+@media(min-width: 768px){
+	.push-down-sm-0{ margin-bottom: 0px;}
+	.push-down-sm-5{ margin-bottom: 5px;}
+	.push-down-sm-10{ margin-bottom: 10px;}
+	.push-down-sm-15{ margin-bottom: 15px;}
+	.push-down-sm-20{ margin-bottom: 20px;}
+	.push-down-sm-25{ margin-bottom: 25px;}
+	.push-down-sm-30{ margin-bottom: 30px;}
+	.push-down-sm-40{ margin-bottom: 40px;}
+	.push-down-sm-50{ margin-bottom: 50px;}
+	.push-down-sm-60{ margin-bottom: 60px;}
+	.push-up-sm-0{ margin-top: 0;}
+	.push-up-sm-5{ margin-top: 5px;}
+	.push-up-sm-10{ margin-top: 10px;}
+	.push-up-sm-15{ margin-top: 15px;}
+	.push-up-sm-20{ margin-top: 20px;}
+	.push-up-sm-25{ margin-top: 25px;}
+	.push-up-sm-30{ margin-top: 30px;}
+	.push-up-sm-40{ margin-top: 40px;}
+	.push-up-sm-50{ margin-top: 50px;}
+	.push-up-sm-60{ margin-top: 60px;}
+}
+@media(max-width: 767px){
+	.push-down-xs-0{ margin-bottom: 0px;}
+	.push-down-xs-5{ margin-bottom: 5px;}
+	.push-down-xs-10{ margin-bottom: 10px;}
+	.push-down-xs-15{ margin-bottom: 15px;}
+	.push-down-xs-20{ margin-bottom: 20px;}
+	.push-down-xs-25{ margin-bottom: 25px;}
+	.push-down-xs-30{ margin-bottom: 30px;}
+	.push-down-xs-40{ margin-bottom: 40px;}
+	.push-down-xs-50{ margin-bottom: 50px;}
+	.push-down-xs-60{ margin-bottom: 60px;}
+	.push-up-xs-0{ margin-top: 0;}
+	.push-up-xs-5{ margin-top: 5px;}
+	.push-up-xs-10{ margin-top: 10px;}
+	.push-up-xs-15{ margin-top: 15px;}
+	.push-up-xs-20{ margin-top: 20px;}
+	.push-up-xs-25{ margin-top: 25px;}
+	.push-up-xs-30{ margin-top: 30px;}
+	.push-up-xs-40{ margin-top: 40px;}
+	.push-up-xs-50{ margin-top: 50px;}
+	.push-up-xs-60{ margin-top: 60px;}
+}
