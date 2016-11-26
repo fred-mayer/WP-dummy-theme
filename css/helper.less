@@ -1,0 +1,34 @@
+@def: 1px;
+.myLoopFS (@index) when (@index < 36) {
+  &.fs@{index} {
+      font-size: @index * @def;
+  }
+  /* выполняем слудующую итерацию рекурсивно */
+  .myLoopFS(@index + 1);
+}
+/* запускаем цикл с нуля */
+.myLoopFS(10); 
+
+@def: 1px;
+.myLoopPD (@index) when (@index < 50) {
+  &.pd@{index} {
+      padding: @index * @def 0;
+  }
+  /* выполняем слудующую итерацию рекурсивно */
+  .myLoopPD(@index + 5);
+}
+/* запускаем цикл с нуля */
+.myLoopPD(5); 
+
+@def: 1px;
+.pushDown (@index) when (@index < 50) {
+  &.push-down-@{index} {
+      margin-bottom: @index * @def;
+  }
+  /* выполняем слудующую итерацию рекурсивно */
+  .pushDown(@index + 5);
+}
+/* запускаем цикл с нуля */
+.pushDown(0); 
+
+.block{ display:block;}
